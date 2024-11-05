@@ -8,6 +8,18 @@
 $ npm install
 ```
 
+## Variables de entorno (local)
+
+Modificar las variables de entorno en el archivo **_development.env_** con las credenciales del usuario IAM
+
+```bash
+
+PORT = 3030
+DYNAMODB_ACCESS_KEY_ID = USER_IAM_ACCESS_KEY_ID
+DYNAMODB_SECRET_ACCESS_KEY = USER_IAM_SECRET_ACCESS_KEY
+
+```
+
 ## Running the app
 
 ```bash
